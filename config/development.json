@@ -1,4 +1,8 @@
 {
     "port":5000,
-    "environment":"Development"
+    "environment":"Development",
+    "jwt_secret": "this_is_a_top_secret",
+    "data_base": {
+        "mongo_uri": "mongodb+srv://sa:kFyGM6dtgJjOcgB5@cursonodeisthmus.apkzj.mongodb.net/dbnodeisthmusHospitales?retryWrites=true&w=majority"
+    }
 }
